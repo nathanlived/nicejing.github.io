@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>不吸烟的猫</title>
+    <description></description>
+    <link>https://nicejing.github.io/</link>
+    <atom:link href="https://nicejing.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 13 Jul 2019 11:52:29 +0000</pubDate>
+    <lastBuildDate>Sat, 13 Jul 2019 11:52:29 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Fisher–Yates shuffle 洗牌算法</title>
+        <description>
+简单来说 Fisher–Yates shuffle 算法是一个用来将一个有限集合生成一个随机排列的算法（数组随机排序）。这个算法生成的随机排列是等概率的。同时这个算法非常高效。
+
+本文主要介绍这个算法的来源、演变、原理。并举出一个例子为大家清晰的描述每次迭代过程。最后使用 JavaScript 代码将算法实现。
+
+</description>
+        <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+        <link>https://nicejing.github.io/2016/10/16/shuffle-algorithm/</link>
+        <guid isPermaLink="true">https://nicejing.github.io/2016/10/16/shuffle-algorithm/</guid>
+        
+        <category>算法</category>
+        
+        <category>shuffle</category>
+        
+        <category>乱序</category>
+        
+        <category>洗牌</category>
+        
+        
+        <category>JavaScript</category>
+        
+      </item>
+    
+  </channel>
+</rss>
