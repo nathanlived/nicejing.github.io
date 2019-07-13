@@ -1,0 +1,25 @@
+language: node_js
+node_js: 6
+
+# S: Build Lifecycle
+install:
+  - npm install
+script:
+  - ekyll build
+
+after_script:
+  - cd ./_site
+  - git init
+  - git config user.name "nicejing"
+  - git config user.email "jzb0225@gmail.com"
+  - git add .
+  - git commit -m "Update Docs"
+  - git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:master
+
+# E: Build LifeCycle
+branches:
+  only:
+    - source
+env:
+  global:
+    - GH_REF: github.com/nicejing/nicejing.github.io.git
