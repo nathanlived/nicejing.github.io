@@ -5,6 +5,7 @@ node_js: 6
 install:
   - npm install
   - gem install jekyll
+  - gem install jekyll-paginate
 script:
   - jekyll build
 
