@@ -4,6 +4,7 @@ node_js: 6
 # S: Build Lifecycle
 install:
   - npm install
+  - gem install jekyll
 script:
   - jekyll build
 
